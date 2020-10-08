@@ -8,6 +8,7 @@ before_script:
 firebase deploy:
   stage: deploy
   script:
+    - printenv
     - firebase deploy --token $FIREBASE_TOKEN
   only:
     - master
