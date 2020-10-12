@@ -9,7 +9,7 @@ import { useAuthState } from "react-firebase-hooks/auth";
 import { useCollectionData } from "react-firebase-hooks/firestore";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyDSU3dHYuKYkl8D65FfbF5bPMq2rZLlIeM",
+  apiKey: "some api key here",
   authDomain: "superchat-6bed8.firebaseapp.com",
   databaseURL: "https://superchat-6bed8.firebaseio.com",
   projectId: "superchat-6bed8",
