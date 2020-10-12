@@ -147,3 +147,9 @@ img {
   border-radius: 50%;
   margin: 2px 5px;
 }
+
+.message__user {
+  margin-left: auto;
+  color: white;
+  text-align: left !important;
+}

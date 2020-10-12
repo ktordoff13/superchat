@@ -4,14 +4,13 @@ before_script:
   - npm i
   - npm i -g firebase-tools
   - CI=false npm run build
-
-firebase deploy:
-  stage: deploy
-  script:
-    - printenv
-    - firebase deploy --token $FIREBASE_TOKEN
-  only:
-    - master
-  environment:
-    name: production
-    url: superchat-6bed8.web.app
+# firebase deploy:
+#   stage: deploy
+#   script:
+#     - printenv
+#     - firebase deploy --token $FIREBASE_TOKEN
+#   only:
+#     - master
+#   environment:
+#     name: production
+#     url: superchat-6bed8.web.app
